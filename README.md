@@ -1,3 +1,3 @@
 # cookbook-web-labs
 сайт - сборник рецептов
-![Uploading layout.png…]()
+![alt text](layout.png)
