@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The best home recipes">
+    <meta name="keywords" content="recipes, cooking, food">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
+    <title>Cooking Time</title>
+</head>
+<body>
+<header>
+    <h1 style="text-align: center">Cooking Time</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="./all-recipes.html">all recipes</a></li>
+                <li><a href="./add-recipe.html">add recipe</a></li>
+            </ul>
+        </nav>
+    <div class="container">
+        <form autocomplete="off">
+            <div class="finder">
+                <div class="finder__outer">
+                    <div class="finder__inner">
+                        <div class="finder__icon" ref="icon"></div>
+                        <input class="finder__input" type="text" name="search"
+                               placeholder="search what I want today..."/>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</header>
+<main class="index-main">
+    <div class="background-image"></div>
+    <h3 class="quote"><q>a house is not a home unless it contains food and fire for the mind as well as the body.</q>
+    </h3>
+    <div class="book_wrapper">
+        <div id="mybook" style="display:none;">
+            <div class="b-load">
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer id="code-snippet">
+    <code>
+        function cookRecipe() {
+        console.log("Готовим рецепт!");
+        }
+    </code>
+    <div class="ascii-art">
+        ###### #    #   ##   #    # #####  #      ######
+        #       #  #   #  #  ##  ## #    # #      #
+        #####    ##   #    # # ## # #    # #      #####
+        #        ##   ###### #    # #####  #      #
+        #       #  #  #    # #    # #      #      #
+        ###### #    # #    # #    # #      ###### ######
+    </div>
+</footer>
+</body>
+</html>
